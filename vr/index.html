@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <title>WelcomeToVR</title>
+    <style>body { margin: 0; }</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!-- Origin Trial Token, feature = WebVR, origin = https://herokuapp.com, expires = 2017-06-13 -->
+    <meta http-equiv="origin-trial" data-feature="WebVR" data-expires="2017-06-13" content="Ag1XvS+VNHS8fKfakQxHbyQ6n/RsnQbFWCrMoQykgYXNynwaZUCzrMwjnCiqQ7Vd/2GoCg+FAZZfG/uqE8EUpAUAAABMeyJvcmlnaW4iOiJodHRwczovL2hlcm9rdWFwcC5jb206NDQzIiwiZmVhdHVyZSI6IldlYlZSIiwiZXhwaXJ5IjoxNDk3MzEyMDAwfQ==">
+  </head>
+                                  <!--DEV BODY BEGINS-->
+  <!--<body>-->
+    <!--&lt;!&ndash; When you're ready to deploy your app, update this line to point to your compiled client.bundle.js &ndash;&gt;-->
+    <!--<script src="./client.bundle?platform=vr"></script>-->
+    <!--<script>-->
+      <!--// Initialize the React VR application-->
+      <!--ReactVR.init(-->
+        <!--// When you're ready to deploy your app, update this line to point to-->
+        <!--// your compiled index.bundle.js-->
+        <!--'../index.vr.bundle?platform=vr&dev=true',-->
+        <!--// Attach it to the body tag-->
+        <!--document.body-->
+      <!--);-->
+    <!--</script>-->
+                                            <!--DEV BODY ENDS-->
+
+                                            <!--DEPLOY BODY BEGINS-->
+    <body>
+    <!-- When you're ready to deploy your app, update this line to point to your compiled client.bundle.js -->
+    <script src="/client.bundle.js"></script>
+    <script>
+      // Initialize the React VR application
+      ReactVR.init(
+        // When you're ready to deploy your app, update this line to point to
+        // your compiled index.bundle.js
+        '/index.bundle.js',
+        // Attach it to the body tag
+        document.body
+      );
+    </script>
+                                            <!--DEPLOY BODY ENDS-->
+  </body>
+</html>
+
