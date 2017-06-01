@@ -2,7 +2,7 @@
 
 example of how to build a docker container that can be deployed to heroku with the instructions (here)[https://devcenter.heroku.com/articles/container-registry-and-runtime].
 
-run ./start.sh to build and run a container to port 8081
+run ./start.sh to build an image then serve to localhost:8081/vr
 
 magic happens in:
 - `Dockerfile`
